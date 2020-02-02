@@ -152,7 +152,6 @@ strong {
 .list-header-title {
     margin: 0.1em 0 0.2em 0;
     font-size: 2.2em;
-    text-transform: uppercase;
 }
 .list-header-subtext {
     font-weight: normal;
@@ -186,9 +185,10 @@ strong {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: black;
     background-position: center center;
     object-fit: cover;
+    text-shadow: 3px 3px 4px #cccccc;
 }
 .blog-card {
     display: flex;
