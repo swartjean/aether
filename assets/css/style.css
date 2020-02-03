@@ -298,7 +298,9 @@ strong {
 .small-img {
     width: unset;
     max-width: 100%;
+    border-radius: 5px;
     margin: 0 auto 1.5em auto;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .muted-text {
     color: #7a7b7c;
@@ -327,6 +329,14 @@ img {
     width: 100%;
     height: auto;
     margin: 1.5em 0;
+}
+.shadow-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1.5em 0;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 blockquote {
     border-left: 0.3em solid #D1D1D1;
