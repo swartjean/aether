@@ -363,6 +363,10 @@ ol {
 li ul, li ol {
     padding-left: 1em;
 }
+li .hamburger-menu-overlay-link {
+    display: inline-table;
+    vertical-align: middle;
+}
 li > p {
     margin: 0;
 }
@@ -482,6 +486,8 @@ footer {
     .about-title {
         font-size: 2.5em;
         text-align: center;
+        margin-bottom: 0.5em;
+        margin-top: 0.1em;
     }
     .button {
         border-radius: 0.2rem;
