@@ -16,6 +16,7 @@
       {{ range where .Site.Pages "Params.displayinmenu" true -}}
         <li><a href="{{ .Permalink }}" class="hamburger-menu-overlay-link">{{ .Title }}</a></li>
       {{ end -}}
+      <div class="nav-hr"></div>
       {{ range $key, $value := .Site.Taxonomies.categories -}}
       {{ with $.Site.GetPage (printf "%s%s" "categories/" ($key | urlize)) }}
       <li><a href="{{ .Permalink }}" class="hamburger-menu-overlay-link">{{ .Title }}</a></li>
